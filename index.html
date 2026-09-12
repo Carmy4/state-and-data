@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Search GitHub Repository</h1>
+    <main class="container">
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="e.g., react, machine learning" required>
+            <button type="submit">🔍</button>
+        </form>
+        <div id="status-container">
+            <div id="loading-state" class="hidden">
+                <p>Searching...</p>
+            </div>
+            <div id="error-state" class="hidden">
+                <p>Request failed. Please check your internet connection and try again.</p>
+            </div>
+            <div id="empty-state" class="hidden">
+                <p>No repositories matched your search. Try widening your keywords</p>
+            </div>
+            <ul id="results-list" class="hidden">
+            </ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
