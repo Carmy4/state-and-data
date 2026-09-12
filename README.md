@@ -3,16 +3,16 @@
 ## 1. What the project is
 
 This is a modern, responsive web application built with vanilla JavaScript, HTML5, and CSS3 that allows users to query public repositories against the real GitHub REST API in real-time, featuring a sleek glassmorphism interface and comprehensive handling of network and search states.
-Live Deployment: The project is live and can be viewed here: https://carmy4.github.io/github-repository-search/ 
+Live Deployment: The project is live and can be viewed here: https://carmy4.github.io/state-and-data/
 
 ## 2. How to run it locally
 
 This project is a static front-end application with no build process. To run it on a fresh machine, follow these exact steps:
 Clone the repository to your local machine:
-git clone https://github.com/Carmy4/github-repository-search.git
+`git clone https://github.com/Carmy4/state-and-data.git`
 
 Navigate into the project directory:
-cd github-repository-search
+`cd state-and-data`
 
 Open the index.html file in any modern web browser (e.g., Chrome, Firefox, Safari). You can do this by double-clicking the file in your file explorer, or by dragging and dropping it into a browser tab.
 (Note: There are no npm install, package management, or build commands required).
